@@ -1,0 +1,19 @@
+@import '../../styles/index';
+
+.app-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: $app-space-xl;
+  background: $colors-primary;
+  @include boxShadow();
+}
+a {
+  color: $colors-light-gray;
+  margin: $app-space-m;
+  text-decoration: none;
+}
+.active-link {
+  color: yellow;
+  border-bottom: 1px solid;
+}
