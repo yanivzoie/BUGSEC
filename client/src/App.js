@@ -14,8 +14,6 @@ const App = () => {
       <Route exact path="/" component={HomePage} />
       <Route exact path="/register" component={Register} />
       <Route exact path="/users" component={UsersPage} />
-
-      {/* <Route path="/movie/:id" component={MoviePageContainer} /> */}
     </div>
   );
 };

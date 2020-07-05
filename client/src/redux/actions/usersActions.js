@@ -2,7 +2,6 @@ import axios from 'axios';
 import {
   ADD_USER,
   GET_USERS,
-  REGISTER_SUCCESS,
   REGISTER_FAILURE,
   GET_USERS_STARTED,
 } from './types';
@@ -50,12 +49,6 @@ export const getUsers = () => async (dispatch, getState) => {
   }
 };
 
-// const registerSuccess = (user) => ({
-//   type: REGISTER_SUCCESS,
-//   payload: {
-//     ...user,
-//   },
-// });
 
 const registerFailure = (error) => ({
   type: REGISTER_FAILURE,

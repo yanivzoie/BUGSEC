@@ -103,7 +103,6 @@ class Users extends Component {
 }
 const mapStateToProps = (state) => ({
   users: state.usersReducer,
-  sort: state.sortReducer,
 });
 const mapDispatchToProps = (dispatch) => ({
   getUsers: () => dispatch(getUsers()),
